@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+.cart {
+    position: absolute;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    z-index: 100;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+}
+
+.details {
+    background-color: gray;
+    border-radius: 5%;
+    width: 50%;
+    height: 10%;
+}
+
+.exit {
+    color: red;
+}
+
+.underside {
+    background-color: forestgreen;
+    justify-self: flex-end;
+    width: 100%;
+    height: 10%;
+}
